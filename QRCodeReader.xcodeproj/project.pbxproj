@@ -10,7 +10,6 @@
 		BAFBB1F02846A60C0024B8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBB1EF2846A60C0024B8CC /* AppDelegate.swift */; };
 		BAFBB1F22846A60C0024B8CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBB1F12846A60C0024B8CC /* SceneDelegate.swift */; };
 		BAFBB1F42846A60C0024B8CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBB1F32846A60C0024B8CC /* ViewController.swift */; };
-		BAFBB1F72846A60C0024B8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFBB1F52846A60C0024B8CC /* Main.storyboard */; };
 		BAFBB1F92846A60E0024B8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFBB1F82846A60E0024B8CC /* Assets.xcassets */; };
 		BAFBB1FC2846A60E0024B8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFBB1FA2846A60E0024B8CC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		BAFBB1EF2846A60C0024B8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFBB1F12846A60C0024B8CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BAFBB1F32846A60C0024B8CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BAFBB1F62846A60C0024B8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAFBB1F82846A60E0024B8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFBB1FB2846A60E0024B8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFBB1FD2846A60E0024B8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				BAFBB1EF2846A60C0024B8CC /* AppDelegate.swift */,
 				BAFBB1F12846A60C0024B8CC /* SceneDelegate.swift */,
 				BAFBB1F32846A60C0024B8CC /* ViewController.swift */,
-				BAFBB1F52846A60C0024B8CC /* Main.storyboard */,
 				BAFBB1F82846A60E0024B8CC /* Assets.xcassets */,
 				BAFBB1FA2846A60E0024B8CC /* LaunchScreen.storyboard */,
 				BAFBB1FD2846A60E0024B8CC /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				BAFBB1FC2846A60E0024B8CC /* LaunchScreen.storyboard in Resources */,
 				BAFBB1F92846A60E0024B8CC /* Assets.xcassets in Resources */,
-				BAFBB1F72846A60C0024B8CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BAFBB1F52846A60C0024B8CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAFBB1F62846A60C0024B8CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BAFBB1FA2846A60E0024B8CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,9 +278,9 @@
 				DEVELOPMENT_TEAM = QRB568C47A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QRCodeReader/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Because yes";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,9 +306,9 @@
 				DEVELOPMENT_TEAM = QRB568C47A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QRCodeReader/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Because yes";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
