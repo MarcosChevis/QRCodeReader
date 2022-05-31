@@ -92,7 +92,7 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
 //            return
 //        }
 
-        //captureSession.stopRunning()
+        captureSession?.stopRunning()
 
         if let metadataObject = metadataObjects.first {
             guard let readableObject = metadataObject as? AVMetadataMachineReadableCodeObject else { return }
@@ -105,7 +105,8 @@ class ScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     }
 
     func found(code: String) {
-        print(code)
+//        present(ViewController2(), animated: false)
+        navigationController?.pushViewController(ViewController2(string: code), animated: false)
     }
 
     override var prefersStatusBarHidden: Bool {
